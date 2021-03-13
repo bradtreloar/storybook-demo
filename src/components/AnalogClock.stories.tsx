@@ -9,7 +9,17 @@ export default {
   component: AnalogClock,
   argTypes: {
     second: {
-      type: { name: "number" },
+      type: "number",
+    },
+    size: {
+      control: {
+        type: null,
+      },
+    },
+    numerals: {
+      control: {
+        type: null,
+      },
     },
   },
   decorators: [
